@@ -1,0 +1,191 @@
+@import url('normalize.css');
+
+@media(max-width: 990px){
+body { 
+	margin:0px; 
+	padding:0px; 
+	width:100%; 
+	background: #D8DBE0;
+	font-family: 'Fira Sans', sans-serif;
+	
+
+}
+
+header{
+	width: 100%;
+	
+}
+	/*logo principal*/
+#logo-muebles-y-estilo{
+	
+	display:block;
+	margin:auto;
+	padding: 10px;
+	width: 90%;
+}
+
+#contenedor-logo-pagina-principal{
+	position: relative;
+	float: left;
+	
+	height: 100%;
+	width: 100%;
+	min-width: 300px;
+
+}
+
+#logo-pagina-principal{
+	display:block;
+	margin:auto;
+	width: 90%;
+	max-width: 400px;
+}
+
+#mi-cuenta-y-carrito{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	height: 100%;
+	width: 100%;
+} 
+#mi-cuenta{
+	margin-left: 5%;
+	float: left;
+
+}
+
+#salir{
+	margin-left: 5%;
+	float: left;
+}
+
+
+/*barra de busqueda*/
+#contenedor-barra-busqueda{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 0px;
+
+}
+
+#input-de-busqueda {
+  	float: left;
+  	padding: 10px;
+  	padding-bottom: 11px;
+  	margin-top: : 0px;
+  	margin-left: 5%;
+	border: 1px solid #999793;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 70%;
+	background: #fff;
+	
+}
+
+/*--------pie de pagina--------*/
+footer{
+	float: left;
+	width: 100%;
+}
+
+
+/*div espaciador con pequeño logo*/
+
+#contenedor-logo-footer{
+	float: left;
+	width: 100%;
+}
+
+#id-logo-footer{
+	display:block;
+	margin:auto;
+}
+/*redes soliciales aside*/
+#header-de-footer{
+	float: left;
+	width: 100%;
+
+}
+	
+#footer-redes-sociales{
+	color: black;
+    text-align: center;
+    text-decoration: none;
+    float: center;
+}
+
+#footer-logo-facebook{
+	padding: 10px;
+	float: left;
+	margin-left: 20%;
+}
+#footer-logo-whatapp{
+	padding: 10px;
+	float: left;
+	
+	
+}
+#footer-logo-instagram{
+	padding: 10px;
+	float: left;
+	
+	
+}
+#footer-logo-twitter{
+	display: none;
+	padding: 10px;
+	float: left;
+	
+
+}
+
+/*sobreNosotros.html responsive*/
+
+#imagen-sobre-nosotros{
+	width: 90%;
+	height: 90%;
+	float: left;
+	margin: 15px;
+}
+
+#parrafo-sobre-nosotros{
+	width: 90%;
+	float: left;
+	margin: 15px;
+}
+
+/*ayuda.html responsive*/
+
+#imagen-ayuda{
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+}
+
+/*inicio.html responsive*/
+
+.sliderSegundario{
+	float: left;
+	width: 100%;
+	max-height: 500px;
+	
+}
+
+.foto-slider{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*--------login.html---------*/
+
+#body-login{
+	background-image: url(../imgenes/login/fondo/login.jpg);
+	background-size: 100%;
+}
+
+
+
+
+}

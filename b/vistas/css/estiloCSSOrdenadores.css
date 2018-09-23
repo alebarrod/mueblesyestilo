@@ -1,0 +1,631 @@
+@import url('normalize.css');
+
+
+body { 
+	margin-left: 0px; 
+	padding:0px; 
+	width:100%; 
+	/*background: #fff9d1;*/
+	background: #D8DBE0;
+	background-repeat: no-repeat;
+	background-image: url(../imagenes/fondoBody.jpg);
+	background-size: 100%;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+header{
+
+	width: 100%;
+	height: 100%;
+
+
+}
+
+#contenedor-general{
+ 	width: 90%;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+
+
+}
+
+/*encabezado de la pagina*/
+h1{
+	display: none;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+#contenedor-muebles-y-estilo{
+	margin-top: 0px;
+	width: 100%;
+	float: left;
+	
+
+
+}
+
+#logo-muebles-y-estilo{
+
+	max-width: 250px;
+	display:block;
+	margin:auto;
+	padding: 10px;
+}
+/*logo principal*/
+#contenedor-logo-pagina-principal{
+	float: left;
+	/*background: #fff9d1;*/
+	height: 100%;
+	width: 30%;
+
+}
+
+#logo-pagina-principal{
+	display:block;
+	margin:auto;
+}
+
+
+
+/*barra de busqueda*/
+#contenedor-barra-busqueda{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin-top: 100px;
+	
+}
+
+#input-de-busqueda {
+  	float: left;
+  	padding: 10px;
+  	padding-bottom: 11.5px;
+  	margin: 0px;
+	border: 1px solid #999793;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 70%;
+	background: #FFF;
+	
+}
+
+#id-imagen-lupa{
+	display: inline;
+	height: 39px;
+	float: left;
+	border: 1px solid #999793;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-top: 0px; 
+	background: #FFF;
+	/*margin-right: 20px;*/
+}
+/* iconos para usuario y cesta */
+#mi-cuenta-y-carrito{
+	padding-top: 5%;
+	float: left;
+	height: 100%;
+	width: 20%;
+} 
+
+#mi-cuenta{
+	margin-left: 10%;
+}
+
+#salir{
+	margin-left: 10%;
+}
+
+/*----------modificaciones generales--------*/
+ul{    /*quitar estilos a las listas no ordenadas*/
+    list-style:none;
+  }
+/*barra de navegacion*/
+nav{
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: #5f6264;
+	border:1px solid #47494b;
+	
+
+	padding-right: 0px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li .menu{
+    float: left;
+    text-decoration: none;
+
+}
+li .menu:hover{
+    float: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: bold;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 4%;
+    text-decoration: none;
+ 
+}
+
+a :hover{
+	text-decoration: none;
+}
+
+.parrafo-de-contenido-principal{
+	text-align: left;
+	margin: 4%;
+	font-size: 20px;
+
+}
+
+h3 {
+	margin-left: 2%;
+	font-size: 23px;
+}
+
+/* contenido de la pagina principal*/
+
+#contenedor-principal{
+	float: left;
+	background: #FFF;
+}
+/*--------pie de pagina--------*/
+footer{
+	float: left;
+	background-image: url(../imagenes/fondoFooter.jpg);
+	width: 100%;
+}
+
+h2{
+	/*En h2 se muestran los titulos de la mayoria de las pestañas de barra de navegación*/
+	text-align: center;
+}
+/*div espaciador con pequeño logo*/
+
+#contenedor-logo-footer{
+	float: left;
+	background: #5f6264;
+	border:1px solid #47494b;
+	width: 100%;
+}
+
+#id-logo-footer{
+	display:block;
+	margin:auto;
+}
+/*redes soliciales aside*/
+#header-de-footer{
+	float: left;
+	width: 100%;
+
+}
+
+#contenedor-logo-redes-sociales{
+	width: 100%;
+	text-align: center;
+}
+#footer-redes-sociales{
+	color: black;
+    text-align: center;
+    text-decoration: none;
+    float: center;
+}
+
+#footer-logo-facebook{
+	padding: 10px;
+	float: left;
+	margin-left: 40%;
+}
+#footer-logo-whatapp{
+	padding: 10px;
+	float: left;
+	
+}
+#footer-logo-instagram{
+	padding: 10px;
+	float: left;
+	
+}
+#footer-logo-twitter{
+	padding: 10px;
+	float: left;
+
+}
+#contenedor-logo-redes-sociales{
+	width: 100%;
+}
+
+
+
+	/*final de pagina*/
+#id-pie-pagina-1{
+	float: left;
+	width: 50%;
+	color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#id-pie-pagina-2{
+	float: left;
+	width: 50%;
+	color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.pie-pagina{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-decoration: none;
+}
+
+
+
+.menu-footer{
+	color: black;
+	text-decoration: none;
+
+}
+
+/* -------- sobreNosotros.html --------*/
+
+#contenedor-principal{
+	width: 100%;
+	float: left;
+}
+#titulo-sobre-nosotros{
+	text-align: center;
+}
+#contenedor-sobre-nosotros{
+	width: 100%;
+	float: left;
+}
+
+#imagen-sobre-nosotros{
+	width: 40%;
+	height: 40%;
+	float: left;
+	margin: 10px;
+}
+
+#parrafo-sobre-nosotros{
+	width: 50%;
+	float: left;
+	margin: 10px;
+}
+
+#contenedor-mapa-sobre-nosotros{
+	float: left;
+	width: 100%;
+	
+	
+}
+
+#mapa-sobre-nosotros{
+	float: left;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+   
+    
+}
+
+#mapa-sobre-nosotros-iframe{
+	
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+/*--------ayuda.html*--------*/
+#contenedor-imagen-ayuda{
+	background: #FFF;
+	float: left;
+	width: 100%
+
+}
+#imagen-ayuda{
+	float: left;
+	width: 50%;
+	margin-bottom: 1%;
+	margin-left: 25%;
+	margin-right: 25%;
+
+}
+
+/*--------inicio.html-------*/
+
+.slider{
+	max-height: 500px;
+	width: 95%;
+	margin: auto;
+	margin-bottom: 1%;
+	overflow: hidden;
+}
+
+.slider ul{
+
+	display: flex;
+	padding: 0;
+	width: 400%;
+	-webkit-animation-name: animacion;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	
+
+	}
+.slider li{
+
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+
+	width: 100%;
+}
+
+@-webkit-keyframes animacion{
+
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+.sliderSegundario{
+	float: left;
+	width: 48%;
+	max-height: 500px;
+	padding: 1%; 
+	
+
+}
+
+.foto-slider{
+	width: 100%;
+	
+}
+
+/* -------estancias --------*/
+
+.contenedor-estancia{
+	float: left;
+	height: 100%;
+	width: 45%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+
+.imagen-estancia{
+	float: left;
+	max-height: 90%;
+	height: 90%;
+	width: 100%;
+	border: solid 1px #696969;
+
+	
+}
+
+.precio-estancia{
+	float: left;
+	height: 10%;
+	width: 100%;
+	margin-top: 0%;
+	background: #696969;
+	text-align: center; 
+	border: solid 1px #696969;
+}
+
+/*controladores*/
+
+.controlador-error-al-ingresar{
+	text-align: center;
+	font-size: 50px;
+	color: green;
+}
+
+/*----mejora de boostrad----*/
+.table{
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+
+#nueva_categoria{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;
+	
+}
+
+#nueva_descripcion{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;
+}
+
+#nuevo_nombre{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_cantidad{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_peso{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_dimension{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_material{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_preciocompra{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_precioventa{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_lista{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_dni{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_apellidos{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_domicilio{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_telefono{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_correoelectronico{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_pass{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nuevo_fechanacimiento{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_nombre{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_apellido{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_dni{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_telefono{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_domicilio{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_email{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_pass{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_fechanacimiento{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
+
+#nueva_perfil{
+	border-radius: 5px;
+	border-style: none;
+	border: solid 1px #696969;
+	height: 30px;}
